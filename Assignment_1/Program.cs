@@ -179,10 +179,10 @@ Note: Use of String function (Contains) and hasmap is not allowed, think of othe
                         break;
                     }
                 }
-                if (count < s.Length)
-                    return true;
-                else
+                if (count > s.Length)
                     return false;
+                else
+                    return true;
 
 
             }
